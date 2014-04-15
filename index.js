@@ -2,8 +2,8 @@
  * Module dependencies.
  */
 
-var debug = require('debug')('chrome-store');
-var Emitter = require('emitter');
+var debug = require('visionmedia-debug')('chrome-store');
+var Emitter = require('component-emitter');
 var storage = chrome.storage;
 var runtime = chrome.runtime;
 

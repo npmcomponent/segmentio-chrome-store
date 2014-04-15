@@ -1,0 +1,16 @@
+{
+  "name": "segmentio-chrome-store",
+  "description": "tiny wrapper around chrome.storage",
+  "version": "1.0.0",
+  "keywords": [
+    "chrome",
+    "store",
+    "storage"
+  ],
+  "main": "index.js",
+  "dependencies": {
+    "visionmedia-debug": "git://github.com/npmcomponent/visionmedia-debug.git",
+    "component-emitter": "git://github.com/npmcomponent/component-emitter.git"
+  },
+  "license": "MIT"
+}
